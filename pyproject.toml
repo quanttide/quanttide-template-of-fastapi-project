@@ -1,0 +1,15 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "quanttide-template-of-fastapi-project"
+version = "0.1.0"
+description = "量潮FastAPI项目模板"
+authors = ["QuantTide Inc. <opensource@quanttide.com>"]
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
